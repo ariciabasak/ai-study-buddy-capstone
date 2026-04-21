@@ -63,8 +63,7 @@ def router_node(state):
 def retrieval_node(state):
     emb = embedder.encode([state["question"]]).tolist()
     res = collection.query(query_embeddings=emb, n_results=2)
-    context = "
-".join(res["documents"][0])
+    context = "\n".join(res["documents"][0])
     return {"retrieved": context}
 
 # 🛠️ TOOL

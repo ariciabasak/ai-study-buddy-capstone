@@ -3,6 +3,39 @@
 **Domain:** Agentic AI Course | **User:** B.Tech students | **Deadline:** April 21, 2026
 
 ---
+# AI Study Buddy 📚
+
+## Overview
+This project is an AI-powered Study Assistant using LangGraph and RAG.
+
+## Features
+- Knowledge-based answers
+- No hallucination
+- Tool usage (date/time)
+- Memory-based responses
+- Streamlit UI
+
+## Tech Stack
+- Python
+- LangGraph
+- ChromaDB
+- SentenceTransformers
+- Groq API
+- Streamlit
+
+## How to Run
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Add API key in `.env`:
+GROQ_API_KEY=your_key
+
+3. Run:
+streamlit run capstone_streamlit.py
+
+## Note
+API keys are not included for security reasons.
 
 ## Project Structure
 
